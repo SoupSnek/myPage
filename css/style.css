@@ -1,0 +1,115 @@
+/*
+File: style.css
+Author: Al Ferreras
+*/
+body{
+    background-image: url("../pictures/fire.jpg");
+}
+
+h1{
+    color: white;
+}
+
+table{
+    font-family: arial;
+    border-collapse: collapse;
+    background-color: #000000;
+    width: 50%;
+}
+
+tr:hover{
+    background-color: #3d3d3d;
+}
+
+td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    color: red;
+    padding: 8px;
+}
+
+th{
+    border: 1px solid #dddddd;
+    text-align: center;
+    color: red;
+    padding: 8px;
+}
+
+#cat{
+    height: 200px;
+    width: 50vw;
+}
+
+#music {
+    background-color: black;
+    color: white;
+    margin: 20px;
+    width: 200px;
+    letter-spacing: 2px;
+}
+
+#movie{
+    color: white;
+    margin: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#albums{
+    background-color: black;
+    color: white;
+    margin: 20px;
+    width: 200px;
+    letter-spacing: 2px;
+}
+
+#fmlink{
+    border-style: groove;
+    background-color: black;
+    color: #7bc7ed;
+    width: 350px;
+}
+
+img.poster{
+    width: 23vw;
+    height: 50vw;
+}
+
+img.album{
+    width: 200px;
+    height: 200px;
+}
+
+#lblink{
+    border-style: groove;
+    background-color: black;
+    color: #7bed9b;
+    width: 375px;
+}
+
+ul {
+    list-style-type: none;
+    position: fixed;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    font-family: 'Courier New';
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
